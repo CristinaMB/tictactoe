@@ -1,6 +1,7 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-const App = () => <div>tictactoe</div>
+//const App = () => <div>tictactoe</div>
 
 function Square(props) {
   return (
@@ -147,6 +148,6 @@ function calculateWinner(squares) {
   return null;
 }
 
-export default App
+export default Game
 
 
